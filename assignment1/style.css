@@ -1,0 +1,108 @@
+*{
+    background-color: #172937;
+    font-family:sans-serif;
+}
+#bitmoji img{
+    width: 20vh;
+    border-radius: 10%;
+}
+#intro{
+    margin: 5vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    background-color: #253644 ;
+    padding: 2vh;
+    display: flex;
+    border-radius: 10px;
+}
+#bitmoji{
+    padding: 1vh;
+    background-color: #253644;
+}
+#name{
+    width: 35vh;
+    margin-left: 5vh;
+    text-align: center;
+    color: #FAFAFA;
+    background-color: #253644;
+}
+h1{
+    background-color: #253644;
+}
+#edu{
+    color: #FAFAFA;
+    background-color: #253644;
+    width: 35vh;
+    text-align: center;
+    font-size: 12px;
+}
+#edu p{
+    padding: 1vh;
+    border-radius: 10px;
+}
+#body{
+    margin: 5vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    background-color: #253644 ;
+    padding: 5vh;
+    border-radius: 10px;
+    color: #FAFAFA;
+}
+h2{
+    background-color: #253644;
+    font-size: xx-large;
+}
+.orange-line {
+    width: 75px;  
+              /* Set height to 0 to create a horizontal line */
+    border-top: 5px solid #F27021; /* Set the color and style of the line */
+    margin: 10px 0;     
+    border-radius: 10px;       
+}
+#body p{
+    background-color: #253644;
+    font-weight: 300;
+    font-size: 15px;
+}
+#para{
+    background-color: #253644;
+}
+.skills{
+    padding: 5vh;
+    margin: 5vh;
+    width: 350px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #172937;
+
+}
+.spara{
+    margin-left: 2vh;
+    padding-top: 0;
+    background-color: #172937;
+}
+.spara p{
+    background-color: #172937;
+}
+#skil{
+    background-color: #253644;
+    display: flex;
+    flex-wrap: wrap;
+}
+.testimo{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #253644;
+}
+.testi{
+    padding: 5vh;
+    margin: 5vh;
+    background-color: #172937;
+    width:350px;
+    border-radius: 10px;
+}
+iframe{
+    width: 350px;
+    height: 250px;
+}
