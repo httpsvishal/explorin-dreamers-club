@@ -8,12 +8,14 @@
 }
 #intro{
     margin: 5vh;
-    margin-left: 15vh;
-    margin-right: 15vh;
+    
     background-color: #253644 ;
     padding: 2vh;
-    display: flex;
     border-radius: 10px;
+}
+.alwaysvis{
+    display: flex;
+    background-color: #253644;
 }
 #bitmoji{
     padding: 1vh;
@@ -42,8 +44,7 @@ h1{
 }
 #body{
     margin: 5vh;
-    margin-left: 15vh;
-    margin-right: 15vh;
+    
     background-color: #253644 ;
     padding: 5vh;
     border-radius: 10px;
@@ -71,7 +72,7 @@ h2{
 .skills{
     padding: 5vh;
     margin: 5vh;
-    width: 350px;
+    width: 30%;
     display: flex;
     border-radius: 10px;
     background-color: #172937;
@@ -94,15 +95,114 @@ h2{
     display: flex;
     flex-wrap: wrap;
     background-color: #253644;
+    justify-content: space-around;
 }
 .testi{
-    padding: 5vh;
+    padding: 2vh;
     margin: 5vh;
     background-color: #172937;
-    width:350px;
+    width: 30%;
     border-radius: 10px;
+    
 }
 iframe{
-    width: 350px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
+}
+main{
+    margin: 5px;
+}
+@media (max-width:1025px) {
+    .navbar{
+        display: none;
+    }
+}
+@media (min-width:1025px) {
+    #intro{
+        width: 300px;
+        margin-left: 10px;
+        padding: 10px;
+        margin-right: 0;
+        height: 850px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+    }
+    #bitmoji{
+        padding-left: 75px;
+    }
+    .orange-line2{
+        width: 100%; 
+                  /* Set height to 0 to create a horizontal line */
+        border-top: 1px solid #F27021; /* Set the color and style of the line */
+        margin: 10px 0;     
+        border-radius: 10px;       
+        background-color: #253644;
+    }
+    main {
+        display: flex;
+    }
+    .alwaysvis{
+        display: block;
+    }
+    #body{
+        margin-left: 5%;
+    }
+    #name{
+        margin-left: 20px;
+    }
+    .navbar{
+        background-color: #253644;
+        justify-content: center;
+        padding: 3vh;
+    }
+    .contact{
+        display: flex;
+        background-color: #253644;
+        margin: 10px;
+        margin-top: 30px;
+    }
+    .icon svg {
+        color: #F27021;
+        
+    }
+    .icon{
+        padding: 10px;
+        background-color: #172937;
+        border-radius: 10px;
+        height: 20px;
+    }
+    .contact div{
+        margin-top: 0;
+        padding-top: 0;
+        margin: 10px;
+    }
+    .info p{
+        
+        background-color: #253644;
+    }
+    .info{
+        padding-top: 0;
+        margin-top: 0;
+        background-color: #253644;
+        color: #FAFAFA;
+    }
+    .spara{
+        width: 400px;
+        font-size: large;
+        
+    }
+    .social svg{
+        background-color: #253644;
+        margin: 10px;
+    }
+    .social{
+        background-color: #253644;
+        display: flex;
+        justify-content: center;
+    }
+    p.spara{
+        background-color: #172937;
+    }
 }
