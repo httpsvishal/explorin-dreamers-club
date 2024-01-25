@@ -1,0 +1,153 @@
+*{
+    background-color: #172937;
+    font-family:sans-serif;
+    color: #FAFAFA;
+}
+#bitmoji img{
+    height: 150px;
+    border-radius: 10px;
+}
+#bitmoji{
+    padding: 1vh;
+    background-color: #253644;
+}
+#name{
+    width: 35vh;
+    margin-left: 5vh;
+    text-align: center;
+    color: #FAFAFA;
+    background-color: #253644;
+}
+h1{
+    background-color: #253644;
+}
+#edu{
+    color: #FAFAFA;
+    background-color: #253644;
+    width: 35vh;
+    text-align: center;
+    font-size: 12px;
+}
+#edu p{
+    padding: 1vh;
+    border-radius: 10px;
+}
+.box{
+    border-radius: 10px;
+    margin: 5vh;
+    background-color: #253644 ;
+    padding: 2vh;
+}
+.orange-line {
+    width: 75px;  
+              /* Set height to 0 to create a horizontal line */
+    border-top: 5px solid #F27021; /* Set the color and style of the line */
+    margin: 10px 0;     
+    border-radius: 10px;       
+}
+#para p,h2{
+    background-color: #253644;
+}
+#para{
+    background-color: #253644;
+}
+.container{
+    background-color: #253644;
+   
+}
+@media (max-width:1250px) {
+    #topcon{
+        display: flex;
+    }
+    .navbar1{
+        display: none;
+    }
+}
+@media (min-width:1250px) {
+    #topcon{
+        position: fixed;
+    }
+    main{
+        display: flex;
+    }
+    #sidebar{
+        width: 450px;
+    }
+    #name h1{
+        font-size: medium;
+    }
+    #bitmoji{
+        display: flex;
+        justify-content: center;
+    }
+    #name{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
+    .navbar1{
+        background-color: #253644;
+    }
+    .contact{
+        background-color: #253644;
+        display: flex;
+    }
+    .info{
+        margin-left: 15px;
+        background-color: #253644;
+    }
+    .info p{
+        background-color: #253644;
+    }
+    .icon{
+        height: fit-content;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        background-color: #253644;
+        gap: 10px;
+    }
+    svg{
+        background-color: #253644;
+    }
+}
+.skills{
+    padding: 5vh;
+    margin: 5vh;
+    width: 35%;
+    display: flex;
+    border-radius: 10px;
+    background-color: #172937;
+
+}
+#skil{
+    background-color: #253644;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.spara{
+    margin-left: 10%;
+}
+.testimo{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #253644;
+    justify-content: space-around;
+}
+.testi{
+    padding: 2vh;
+    margin: 5vh;
+    background-color: #172937;
+    width: 30%;
+    border-radius: 10px;
+    
+}
+iframe{
+    width: 100%;
+    height: 25vh;
+}
