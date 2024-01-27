@@ -1,0 +1,94 @@
+:root {
+    --primary-color : #172937;
+    --secondary-color : #253644;
+    --icon-color : #F27021;
+    --text-color : #FAFAFA;
+}
+*{
+    font-family: sans-serif;
+}
+@media (max-width:850px) {
+    *{
+        display: none;
+    }
+}
+@media (max-width:1250px) {
+    .contact-section{
+        display: none;
+    }
+    
+}
+@media (min-width:1250px) {
+    main {
+        display: flex;
+        position: relative;
+    }
+    .introduction{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sidebar{
+        width: min-content;
+        height: max-content;
+        position: sticky;
+    }
+    #edu{
+        align-items: center;
+    }
+    .icon-image{
+        background-color: var(--primary-color);
+        padding: 1vh;
+        height: max-content;
+        border-radius: 10px;
+    }
+    .icon-image img{
+        height: 25px;
+    }
+    .contact-section-line{
+        width: 100%;
+        border-top: 3px solid #F27021;
+    }
+}
+main{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-size: large;
+}
+nav{
+    background-color: var(--secondary-color);
+    border-radius: 10px; 
+}
+.hero{
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+#myimage img{
+    height: 15vh;
+    border-radius: 10px;
+}
+.colored-line {
+    border-top: 10px solid #F27021;
+    width: 10%;
+    border-radius: 10px;
+    margin: 10 0;
+}
+.container{
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+iframe{
+    width: 100%;
+    height: 30vh;
+}
+#edu{
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
+.skill{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+.Testimonials{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
